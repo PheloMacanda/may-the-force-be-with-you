@@ -1,0 +1,7 @@
+{
+  "name": "starwars",
+  "displayName": "Starwars",
+  "expo": {
+    "userInterfaceStyle": "automatic"
+  }
+}
