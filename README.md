@@ -1,7 +1,7 @@
 # may-the-force-be-with-you
 A Jedi uses the Force for knowledge and defense, never for attack. ~ Yoda
 
-[![May the force be with you](/4f8cf39f48dbad544dd84f12b2caa90a.png "May the force be with you")](https://i.pinimg.com/originals/4f/8c/f3)
+![May the force be with you](./assets/mtfbwy.png "May the force be with you")
 
 ## In a galaxy not so far away...
 
