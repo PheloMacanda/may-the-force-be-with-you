@@ -23,7 +23,6 @@ const options = {
 
 const Stack = createStackNavigator();
 
-
 const RootNavigation = () => {
   const scheme = useColorScheme(); // see app.json
 
