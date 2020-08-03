@@ -8,6 +8,7 @@ import {
 } from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import SplashScreen from '../splash';
+import HomeScreen from '../home';
 
 const options = {
   title: 'STARWARS - A New Hope 💙',
@@ -31,6 +32,7 @@ const RootNavigation = () => {
       <NavigationContainer theme={scheme === 'dark' ? DarkTheme : DefaultTheme}>
         <Stack.Navigator screenOptions={options}>
           <Stack.Screen name="Splash" component={SplashScreen} />
+          <Stack.Screen name="Home" component={HomeScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </AppearanceProvider>
