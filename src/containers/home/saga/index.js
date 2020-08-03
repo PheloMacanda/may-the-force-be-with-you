@@ -10,8 +10,8 @@ function getPlanetsFromApi() {
 
 export function* fetchPlanets() {
   // todo fetch `planets/` from swapi
-  const {planets, error} = yield call(getPlanets);
-  console.log(`fetching planets {success:${error === undefined}}`);
+  const {planets, error} = yield call(getPlanetsFromApi);
+  console.log(`fetching planets {success:${planets !== undefined}}`);
   yield put(setPlanets(planets, error));
 }
 
